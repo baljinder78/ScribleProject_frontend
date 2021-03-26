@@ -7,10 +7,9 @@
     height:40px;
     margin: 10px;
     padding: 5px;
-    background-color: #1c1427;
-    color: #ccffbd;
-    border-radius: 20px;
-    border: none;
+    background-color: blue;
+    color: white;
+
     font-size: 12px;
     overflow: hidden;
 
@@ -24,27 +23,8 @@
     position: absolute;
 }
 
-.topButtons::before{
-background:  #ccffbd;
-    content: "";
-    width: 150%;
-    height: 0;
-    position: absolute;
-    transform: translate(-50%,-50%) rotate(45deg);
-    z-index: 0;
-    transition: all 1s ease;
 
 
-}
-.topButtons:hover::before{
-    height: 300%;
-
-}
-.topButtons:hover{
-    border: 2px solid #1c1427;
-    color: #1c1427;
-    transition: all 1s ease;
-}
 
 /* logo */
 .logo-title{
@@ -64,10 +44,11 @@ background:  #ccffbd;
 
 /*  signup model  */
 .Signup_modal{
+    display: none;
     justify-content: center;
     align-items: center;
     height: auto;
-    display: none;
+
 }
 .signup_form{
     border: 2px solid black;
@@ -102,7 +83,7 @@ text-align: center;
     margin-bottom: 0;
     font-size: 20px;
 }
-.signup_form form .s_button{
+.signup_form form .sup_button{
     margin-top: 30px;
     width: 100%;
     margin:30px 1%;
@@ -111,7 +92,7 @@ text-align: center;
     height: 30px;
     color:#dddddd;
 }
-.signup_form form .s_button:hover{
+.signup_form form .sup_button:hover{
     border: 2px solid #810000;
     background-color: #222831;
 }
@@ -159,7 +140,7 @@ text-align: center;
     margin-bottom: 0;
     font-size: 20px;
 }
-.signin_form form .s_button{
+.signin_form form .sin_button{
     margin-top: 30px;
     width: 100%;
     margin:30px 1%;
@@ -168,7 +149,7 @@ text-align: center;
     height: 30px;
     color:#dddddd;
 }
-.signin_form form .s_button:hover{
+.signin_form form .sin_button:hover{
     border: 2px solid #810000;
     background-color: #222831;
 }

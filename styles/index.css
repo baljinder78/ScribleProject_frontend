@@ -9,20 +9,9 @@
     margin: 10px;
     width: 150px;
     height: 40px;
-    background-color: #810000;
-    color: #eeebdd;
-    border-radius: 10px;
-    border: none;
-    font-family: 'Dela Gothic One', cursive;
-    box-shadow: 0 4px 6px 0 #1b1717, 0 6px 15px 0 #1b1717;
+    background-color: orange;
+    color: black;
 }
-.post_in_buttons:hover{
-    background-color: #fc8621;
-    color: #1b1717;
-    box-shadow: 0 4px 6px 0 #810000, 0 6px 15px 0 #810000;
-    border: 3px solid #1b1717;
-}
-
 
 /*  creat Post model  */
 .creat_post_modal{
