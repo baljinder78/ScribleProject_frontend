@@ -17,25 +17,14 @@
 </head>
 
 <body background="images/background.jpg">
-<div class="header">
-    <button class="topButtons" id="btn">Sign Up</button>
-    <button class="topButtons">Sign In</button>
-    <a  class="logo-title">ScriBBler</a>
-    <p class="middleText">Explore, Imagine, Create</p>
-</div>
-<div id="post_buttons">
-    <button class="post_in_buttons">All Posts</button>
-    <button class="post_in_buttons">Create Posts</button>
-</div>
-
-
 
 
 <!-- Sign up Model -->
 <div class="Signup_modal">
     <div  class="signup_form">
+        <span class="signup_close">&times;</span>
         <h1>Get Started</h1>
-    <hr>
+        <hr>
 
         <form>
             <p>Full Name</p>
@@ -59,6 +48,7 @@
 <!-- Sign in Model -->
 <div class="Signin_modal">
     <div class="signin_form">
+        <span class="signin_close">&times;</span>
         <h1>Welcome Back!</h1>
         <hr>
 
@@ -77,11 +67,10 @@
     </div>
 </div>
 
-
-
 <!-- Creat post Model -->
 <div class="creat_post_modal">
     <div class="creat_post_form">
+        <span class="creat_post_close">&times;</span>
         <h1>Pen your post</h1>
         <hr>
 
@@ -98,6 +87,33 @@
 
     </div>
 </div>
+
+
+<div class="header">
+    <button class="topButtons" id="btn">Sign Up</button>
+    <button class="topButtons">Sign In</button>
+    <a  class="logo-title">ScriBBler</a>
+    <p class="middleText">Explore, Imagine, Create</p>
+</div>
+
+
+
+
+<div id="post_buttons">
+    <button class="post_in_buttons" >All Posts</button>
+    <button id="create_post" class="post_in_buttons" onclick="hello()">Create Posts</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
 
 <script src="scripts/index.js"></script>
 <script src="scripts/header.js" ></script>

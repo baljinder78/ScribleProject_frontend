@@ -1,3 +1,9 @@
+body{
+    background-repeat: no-repeat;
+    width: 1400px;
+    height: 907px;
+}
+
 #post_buttons{
     display: flex;
     justify-content: center;
@@ -15,19 +21,23 @@
 
 /*  creat Post model  */
 .creat_post_modal{
-    display: flex;
+    position: fixed;
+    display: none;
+    z-index:1;
     justify-content: center;
     align-items: center;
-    height: auto;
-
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    margin:-5px;
 }
 .creat_post_form{
-    border: 2px solid black;
     padding: 15px 50px;
     background-color: #dddddd;
-    color: #810000;
+    color: black;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     width: 50%;
+    height: 80%;
 }
 
 .creat_post_form h1{
@@ -42,8 +52,7 @@
     color: #1b1717;
 }
 .creat_post_form form input:focus{
-    border-bottom: 2px solid #810000;
-
+    border-bottom: 2px solid #4CAF50;
 }
 
 .creat_post_form form p{
@@ -55,20 +64,24 @@
     width: 40%;
     margin:30px 30%;
     justify-content: center;
-    background-color: #810000;
+    background-color: #4CAF50;
     height: 30px;
-    color:#dddddd;
+    color:white;
 }
-.creat_post_form form .s_button:hover{
-    border: 2px solid #810000;
-    background-color: #222831;
-}
+
 
 .creat_post_form form textarea{
     width: 100%;
-    height: 150px;
+    height: 300px;
     margin-top: 2px;
     font-size: 15px;
     border: 2px solid #dddddd;
     color: #1b1717;
+}
+.creat_post_close{
+    font-size: 50px;
+    float: right;
+}
+.creat_post_close:hover{
+    color: #4CAF50;
 }

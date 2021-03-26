@@ -1,4 +1,5 @@
 /* BUTTONS */
+
 .topButtons{
     position: relative;
    align-items: center;
@@ -9,19 +10,11 @@
     padding: 5px;
     background-color: blue;
     color: white;
-
     font-size: 12px;
     overflow: hidden;
 
 }
 
-.topButtons span {
-    font-family: 'Dela Gothic One', cursive;
-    margin-top: -8px;
-    margin-left: 20px;
-    display: block;
-    position: absolute;
-}
 
 
 
@@ -44,23 +37,27 @@
 
 /*  signup model  */
 .Signup_modal{
+    position: fixed;
     display: none;
+    z-index:1;
     justify-content: center;
     align-items: center;
-    height: auto;
-
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    margin:-5px;
 }
 .signup_form{
     border: 2px solid black;
     padding: 15px 50px;
     background-color: #dddddd;
-    color: #810000;
+    color: black;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     width: 20%;
 }
 .signup_form hr{
-    border: 2px solid #810000;
-    background-color: #810000;
+    border: 2px solid #4CAF50;
+    background-color: #4CAF50;
 }
 .signup_form h1{
 text-align: center;
@@ -74,7 +71,7 @@ text-align: center;
     color: #1b1717;
 }
 .signup_form form input:focus{
-    border-bottom: 2px solid #810000;
+    border-bottom: 2px solid #4CAF50;
 
 }
 
@@ -84,40 +81,54 @@ text-align: center;
     font-size: 20px;
 }
 .signup_form form .sup_button{
-    margin-top: 30px;
+
     width: 100%;
     margin:30px 1%;
     justify-content: center;
-    background-color: #810000;
-    height: 30px;
-    color:#dddddd;
+    background-color: #4CAF50;
+    height: 40px;
+    color:white;
 }
 .signup_form form .sup_button:hover{
-    border: 2px solid #810000;
+    border: 2px solid #4CAF50;
     background-color: #222831;
 }
+.signup_close{
+    font-size: 50px;
+
+    float: right;
+
+}
+.signup_close:hover{
+
+    color: #4CAF50;
 
 
+}
 
 /*  signin model  */
 .Signin_modal{
-    display: flex;
+    position: fixed;
+    display: none;
+    z-index:1;
     justify-content: center;
     align-items: center;
-    height: auto;
-
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    margin:-5px;
 }
 .signin_form{
     border: 2px solid black;
     padding: 15px 50px;
     background-color: #dddddd;
-    color: #810000;
+    color: black;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     width: 20%;
 }
 .signin_form hr{
-    border: 2px solid #810000;
-    background-color: #810000;
+    border: 2px solid #4CAF50;
+    background-color: #4CAF50;
 }
 .signin_form h1{
     text-align: center;
@@ -131,7 +142,7 @@ text-align: center;
     color: #1b1717;
 }
 .signin_form form input:focus{
-    border-bottom: 2px solid #810000;
+    border-bottom: 2px solid #4CAF50;
 
 }
 
@@ -141,16 +152,16 @@ text-align: center;
     font-size: 20px;
 }
 .signin_form form .sin_button{
-    margin-top: 30px;
+
     width: 100%;
     margin:30px 1%;
     justify-content: center;
-    background-color: #810000;
+    background-color: #4CAF50;
     height: 30px;
-    color:#dddddd;
+    color:white;
 }
 .signin_form form .sin_button:hover{
-    border: 2px solid #810000;
+    border: 2px solid #4CAF50;
     background-color: #222831;
 }
 .signin_form .Nan_member{
@@ -160,7 +171,18 @@ text-align: center;
 .signin_form .Nan_member span{
     color: #112fb4;
 }
+.signin_close{
+    font-size: 50px;
 
+    float: right;
+
+}
+.signin_close:hover{
+
+    color: #4CAF50;
+
+
+}
 
 
 /* cyrillic */
