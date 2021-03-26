@@ -28,16 +28,16 @@
 
         <form>
             <p>Full Name</p>
-            <input type="text"  class="name"  placeholder="Enter your Full Name">
+            <input type="text"  class="name"  placeholder="Enter Full Name" required>
 
             <p>Username</p>
-            <input type="text" class="u_name" placeholder="Enter your Username">
+            <input type="text" class="u_name" placeholder="Enter Username" required>
 
             <p>Password</p>
-            <input type="text" class="pass" placeholder="Enter your Password">
+            <input type="password" class="pass" placeholder="Enter Password" required>
 
             <p> Confirm Password</p>
-            <input type="text" class="c_pass" placeholder="Confirm your password">
+            <input type="password" class="c_pass" placeholder="Confirm Password" required>
 
             <input type="submit"class="sup_button" value="Sign up" >
         </form>
@@ -54,15 +54,15 @@
 
         <form>
             <p>Username</p>
-            <input type="text" class="u_name" placeholder="Enter your Username">
+            <input type="text" class="u_name" placeholder="Enter Username" required>
 
             <p>Password</p>
-            <input type="text" class="pass" placeholder="Enter your Password">
+            <input type="password" class="pass" placeholder="Enter Password" required>
 
             <input type="submit" class="sin_button"  value="Submit">
 
         </form>
-        <h3 class="Nan_member">Not a member?<span> Sign up </span></h3>
+        <h3 class="Nan_member">Not a member?<a class="signup_in_signin"><span> Sign up </span></a></h3>
 
     </div>
 </div>
@@ -80,7 +80,7 @@
 
             <p>Content:</p>
             <textarea></textarea>
-            <input type="submit" class="s_button" value="Post" >
+            <input type="submit" class="s_button" value="Create" >
 
         </form>
 
@@ -100,7 +100,7 @@
 
 
 <div id="post_buttons">
-    <button class="post_in_buttons" >All Posts</button>
+    <a href="/html/bloglist.html"><button class="post_in_buttons">All Posts</button></a>
     <button id="create_post" class="post_in_buttons" onclick="hello()">Create Posts</button>
 </div>
 

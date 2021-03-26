@@ -33,7 +33,13 @@ signin_close_btn.onclick=function () {
 }
 
 
+var signup_in_signin=document.getElementsByClassName("signup_in_signin")[0];
 
+signup_in_signin.onclick=function()
+{
+    signin_modal.style.display="none";
+    signup_modal.style.display="flex";
+}
 
 
 
