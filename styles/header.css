@@ -15,10 +15,6 @@
 
 }
 
-
-
-
-
 /* logo */
 .logo-title{
     font-family: 'Satisfy', cursive;
@@ -44,7 +40,7 @@
     align-items: center;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.8);
     margin:-5px;
 }
 .signup_form{
@@ -115,7 +111,7 @@ text-align: center;
     align-items: center;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.8);
     margin:-5px;
 }
 .signin_form{
