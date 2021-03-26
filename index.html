@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- TODO: Include Font Awesome file here -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!-- TODO: Include Google Fonts file here -->
+    <link href='https://fonts.googleapis.com/css?family=Marck+Script|Satisfy' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+
+
+    <link href="styles/header.css" rel="stylesheet">
+    <link href="styles/index.css" rel="stylesheet">
+
+
+    <script src="scripts/index.js" type="text/javascript"></script>
+    <script src="scripts/header.js" type="text/javascript"></script>
+</head>
+
+<body background="images/background.jpg">
+<div class="header">
+    <button class="topButtons"><span>Sign Up</span></button>
+    <button class="topButtons"><span>Sign In</span></button>
+    <a  class="logo-title">ScriBBler</a>
+    <p class="middleText">Explore, Imagine, Create</p>
+</div>
+<div id="post_buttons">
+    <button class="post_in_buttons">All Posts</button>
+    <button class="post_in_buttons">Create Posts</button>
+</div>
+
+
+
+
+<!-- Sign up Model -->
+<div class="Signup_modal">
+    <div class="signup_form">
+        <h1>Get Started</h1>
+    <hr>
+
+        <form>
+            <p>Full Name</p>
+            <input type="text"  class="name"  placeholder="Enter your Full Name">
+
+            <p>Username</p>
+            <input type="text" class="u_name" placeholder="Enter your Username">
+
+            <p>Password</p>
+            <input type="text" class="pass" placeholder="Enter your Password">
+
+            <p> Confirm Password</p>
+            <input type="text" class="c_pass" placeholder="Confirm your password">
+
+            <input type="submit" class="s_button" value="Submit">
+
+        </form>
+
+    </div>
+</div>
+
+<!-- Sign in Model -->
+<div class="Signin_modal">
+    <div class="signin_form">
+        <h1>Welcome Back!</h1>
+        <hr>
+
+        <form>
+            <p>Username</p>
+            <input type="text" class="u_name" placeholder="Enter your Username">
+
+            <p>Password</p>
+            <input type="text" class="pass" placeholder="Enter your Password">
+
+            <input type="submit" class="s_button" value="Submit">
+
+        </form>
+        <h3 class="Nan_member">Not a member?<span> Sign up <span></h3>
+
+    </div>
+</div>
+
+
+
+<!-- Creat post Model -->
+<div class="creat_post_modal">
+    <div class="creat_post_form">
+        <h1>Pen your post</h1>
+        <hr>
+
+        <form>
+            <p>Title:</p>
+            <input type="text" class="u_name" >
+
+            <p>Content:</p>
+            <textarea></textarea>
+            <input type="submit" class="s_button" value="Post" >
+
+        </form>
+
+
+    </div>
+</div>
+
+</body>
+
+</html>

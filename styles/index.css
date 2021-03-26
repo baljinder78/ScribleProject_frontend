@@ -1,0 +1,85 @@
+#post_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+}
+.post_in_buttons{
+    margin: 10px;
+    width: 150px;
+    height: 40px;
+    background-color: #810000;
+    color: #eeebdd;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Dela Gothic One', cursive;
+    box-shadow: 0 4px 6px 0 #1b1717, 0 6px 15px 0 #1b1717;
+}
+.post_in_buttons:hover{
+    background-color: #fc8621;
+    color: #1b1717;
+    box-shadow: 0 4px 6px 0 #810000, 0 6px 15px 0 #810000;
+    border: 3px solid #1b1717;
+}
+
+
+/*  creat Post model  */
+.creat_post_modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+}
+.creat_post_form{
+    border: 2px solid black;
+    padding: 15px 50px;
+    background-color: #dddddd;
+    color: #810000;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    width: 50%;
+}
+
+.creat_post_form h1{
+    text-align: center;
+}
+.creat_post_form form input{
+    width: 50%;
+    height: 30px;
+    margin-top: 2px;
+    font-size: 15px;
+    border: 2px solid #dddddd;
+    color: #1b1717;
+}
+.creat_post_form form input:focus{
+    border-bottom: 2px solid #810000;
+
+}
+
+.creat_post_form form p{
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.creat_post_form form .s_button{
+    width: 40%;
+    margin:30px 30%;
+    justify-content: center;
+    background-color: #810000;
+    height: 30px;
+    color:#dddddd;
+}
+.creat_post_form form .s_button:hover{
+    border: 2px solid #810000;
+    background-color: #222831;
+}
+
+.creat_post_form form textarea{
+    width: 100%;
+    height: 150px;
+    margin-top: 2px;
+    font-size: 15px;
+    border: 2px solid #dddddd;
+    color: #1b1717;
+}

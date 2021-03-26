@@ -1,0 +1,216 @@
+/* BUTTONS */
+.topButtons{
+    position: relative;
+   align-items: center;
+    float: right;
+    width: 100px;
+    height:40px;
+    margin: 10px;
+    padding: 5px;
+    background-color: #1c1427;
+    color: #ccffbd;
+    border-radius: 20px;
+    border: none;
+    font-size: 12px;
+    overflow: hidden;
+
+}
+
+.topButtons span {
+    font-family: 'Dela Gothic One', cursive;
+    margin-top: -8px;
+    margin-left: 20px;
+    display: block;
+    position: absolute;
+}
+
+.topButtons::before{
+background:  #ccffbd;
+    content: "";
+    width: 150%;
+    height: 0;
+    position: absolute;
+    transform: translate(-50%,-50%) rotate(45deg);
+    z-index: 0;
+    transition: all 1s ease;
+
+
+}
+.topButtons:hover::before{
+    height: 300%;
+
+}
+.topButtons:hover{
+    border: 2px solid #1c1427;
+    color: #1c1427;
+    transition: all 1s ease;
+}
+
+/* logo */
+.logo-title{
+    font-family: 'Satisfy', cursive;
+    font-size: 35px;
+    color: #112fb4;
+    text-decoration: none;
+    margin-left: 10px;
+
+}
+.middleText{
+    color: black;
+    font-family: 'Marck Script', cursive;
+    margin-left: 10px;
+}
+/*--------------*/
+
+/*  signup model  */
+.Signup_modal{
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    display: none;
+}
+.signup_form{
+    border: 2px solid black;
+    padding: 15px 50px;
+    background-color: #dddddd;
+    color: #810000;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    width: 20%;
+}
+.signup_form hr{
+    border: 2px solid #810000;
+    background-color: #810000;
+}
+.signup_form h1{
+text-align: center;
+}
+.signup_form form input{
+    width: 100%;
+    height: 30px;
+    margin-top: 2px;
+    font-size: 15px;
+    border: 2px solid #dddddd;
+    color: #1b1717;
+}
+.signup_form form input:focus{
+    border-bottom: 2px solid #810000;
+
+}
+
+.signup_form form p{
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.signup_form form .s_button{
+    margin-top: 30px;
+    width: 100%;
+    margin:30px 1%;
+    justify-content: center;
+    background-color: #810000;
+    height: 30px;
+    color:#dddddd;
+}
+.signup_form form .s_button:hover{
+    border: 2px solid #810000;
+    background-color: #222831;
+}
+
+
+
+/*  signin model  */
+.Signin_modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+}
+.signin_form{
+    border: 2px solid black;
+    padding: 15px 50px;
+    background-color: #dddddd;
+    color: #810000;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    width: 20%;
+}
+.signin_form hr{
+    border: 2px solid #810000;
+    background-color: #810000;
+}
+.signin_form h1{
+    text-align: center;
+}
+.signin_form form input{
+    width: 100%;
+    height: 30px;
+    margin-top: 2px;
+    font-size: 15px;
+    border: 2px solid #dddddd;
+    color: #1b1717;
+}
+.signin_form form input:focus{
+    border-bottom: 2px solid #810000;
+
+}
+
+.signin_form form p{
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.signin_form form .s_button{
+    margin-top: 30px;
+    width: 100%;
+    margin:30px 1%;
+    justify-content: center;
+    background-color: #810000;
+    height: 30px;
+    color:#dddddd;
+}
+.signin_form form .s_button:hover{
+    border: 2px solid #810000;
+    background-color: #222831;
+}
+.signin_form .Nan_member{
+    text-align: center;
+
+}
+.signin_form .Nan_member span{
+    color: #112fb4;
+}
+
+
+
+/* cyrillic */
+@font-face {
+    font-family: 'Marck Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Marck Script'), local('MarckScript-Regular'), url(https://fonts.gstatic.com/s/marckscript/v8/nwpTtK2oNgBA3Or78gapdwuyzCg_WMM.woff2) format('woff2');
+    unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Marck Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Marck Script'), local('MarckScript-Regular'), url(https://fonts.gstatic.com/s/marckscript/v8/nwpTtK2oNgBA3Or78gapdwuyxig_WMM.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Marck Script';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Marck Script'), local('MarckScript-Regular'), url(https://fonts.gstatic.com/s/marckscript/v8/nwpTtK2oNgBA3Or78gapdwuyyCg_.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+    font-family: 'Satisfy';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Satisfy Regular'), local('Satisfy-Regular'), url(https://fonts.gstatic.com/s/satisfy/v8/rP2Hp2yn6lkG50LoCZOIHQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
