@@ -2,8 +2,17 @@
     margin: 0 5%;
 }
 
-.parent_container .container_heading_1{
+.parent_container #container_heading_1{
     text-align: center;
+    font-size: 30px;
+}
+.parent_container #container_heading_1_edit{
+    margin:0px auto;
+    display:none;
+    height: 30px;
+    width: auto;
+    font-size: 30px;
+    border: 2px solid lightpink;
 }
 
 .parent_container .container_name_edit{
@@ -30,7 +39,19 @@
 
 }
 
+.parent_container .container_name_edit #save{
+    display: none;
+    height: 40px;
+    font-size: 15px;
+    padding: 5px 20px;
+    background-color: #ff3385;
+    color: white;
+    border: none;
+    box-shadow: 2px 5px 10px #ff3385;
+
+}
 .parent_container #like{
+    margin-top: 10px;
     height: 40px;
     font-size: 20px;
     padding: 5px 40px;
@@ -40,7 +61,7 @@
     box-shadow: 2px 5px 10px #ff3385;
     border-radius: 5px;
 }
-.parent_container textarea{
+.parent_container #comment_add_content{
     height: 100px;
     width: 60%;
 }
@@ -73,4 +94,10 @@
     margin-top: 2px;
     display: flex;
     flex-wrap: wrap;
+}
+#post_body_edit{
+    width: 100%;
+    display: none;
+    margin-top: 10px;
+    border: 2px solid lightblue;
 }
