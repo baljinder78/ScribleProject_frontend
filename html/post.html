@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Post List</title>
+
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/post.css">
+</head>
+<body>
+
+<!-- Sign up Model -->
+<div class="Signup_modal">
+    <div  class="signup_form">
+        <span class="signup_close">&times;</span>
+        <h1>Get Started</h1>
+        <hr>
+
+        <form>
+            <p>Full Name</p>
+            <input type="text"  class="name"  placeholder="Enter Full Name" required>
+
+            <p>Username</p>
+            <input type="text" class="u_name" placeholder="Enter Username" required>
+
+            <p>Password</p>
+            <input type="password" class="pass" placeholder="Enter Password" required>
+
+            <p> Confirm Password</p>
+            <input type="password" class="c_pass" placeholder="Confirm Password" required>
+
+            <input type="submit"class="sup_button" value="Sign up" >
+        </form>
+
+    </div>
+</div>
+
+<!-- Sign in Model -->
+<div class="Signin_modal">
+    <div class="signin_form">
+        <span class="signin_close">&times;</span>
+        <h1>Welcome Back!</h1>
+        <hr>
+
+        <form>
+            <p>Username</p>
+            <input type="text" class="u_name" placeholder="Enter Username" required>
+
+            <p>Password</p>
+            <input type="password" class="pass" placeholder="Enter Password" required>
+
+            <input type="submit" class="sin_button"  value="Submit">
+
+        </form>
+        <h3 class="Nan_member">Not a member?<a class="signup_in_signin"><span> Sign up </span></a></h3>
+
+    </div>
+</div>
+
+<!-- LOGO and header -->
+<div class="header">
+    <button class="topButtons" id="btn">Sign Up</button>
+    <button class="topButtons">Sign In</button>
+    <a  class="logo-title">ScriBBler</a>
+    <p class="middleText">Explore, Imagine, Create</p>
+</div>
+
+<div class="parent_container">
+    <h1>The Legend jimi</h1>
+    <p>JIMI</p>
+    <button >Edit <img src="https://img.icons8.com/metro/26/000000/edit-property.png"/></button>
+    <p></p>
+    <button><img src="https://img.icons8.com/fluent-systems-filled/24/000000/facebook-like.png"/>Like</button>
+    <p>Be first one to like this!</p>
+    <textarea placeholder="leave a comment...">
+
+    </textarea>
+</div>
+
+
+<script src="../scripts/post.js"></script>
+<script src="../scripts/header.js"></script>
+</body>
+</html>
