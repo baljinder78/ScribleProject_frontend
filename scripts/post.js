@@ -1,3 +1,10 @@
+/*
+ Made By
+ Name-Baljinder Singh
+ Id-18110981088
+ Contact me on linkdin:-https://www.linkedin.com/in/baljinder-singh-39a5791b6/
+ */
+
 var edit_button=document.getElementById("edit");
 var save_button=document.getElementById("save");
 
@@ -69,3 +76,10 @@ function post_comment(){
     new_para.setAttribute("class","comment_content");
     comment_section.insertBefore(new_para,comment_section.childNodes[0]);
 }
+
+/*
+ Made By
+ Name-Baljinder Singh
+ Id-18110981088
+ Contact me on linkdin:-https://www.linkedin.com/in/baljinder-singh-39a5791b6/
+ */

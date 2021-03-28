@@ -1,3 +1,9 @@
+/*
+ Made By
+ Name-Baljinder Singh
+ Id-18110981088
+ Contact me on linkdin:-https://www.linkedin.com/in/baljinder-singh-39a5791b6/
+ */
 
 var configuration_model=document.getElementsByClassName("Confirmation_box_model")[0];
 
@@ -18,3 +24,10 @@ for (j = 0; j < configuration_btn.length; j++) {
 configuration_no.onclick=function () {
     configuration_model.style.display="none";
 }
+
+/*
+ Made By
+ Name-Baljinder Singh
+ Id-18110981088
+ Contact me on linkdin:-https://www.linkedin.com/in/baljinder-singh-39a5791b6/
+ */

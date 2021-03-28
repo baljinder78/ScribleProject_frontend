@@ -1,3 +1,9 @@
+/*
+ Made By
+ Name-Baljinder Singh
+ Id-18110981088
+ Contact me on linkdin:-https://www.linkedin.com/in/baljinder-singh-39a5791b6/
+ */
 
 var signup_modal = document.getElementsByClassName("Signup_modal")[0];
 
@@ -54,3 +60,9 @@ window.onclick = function(event) {
     }
 }
 
+/*
+ Made By
+ Name-Baljinder Singh
+ Id-18110981088
+ Contact me on linkdin:-https://www.linkedin.com/in/baljinder-singh-39a5791b6/
+ */

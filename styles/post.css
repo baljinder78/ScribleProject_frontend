@@ -1,3 +1,14 @@
+/*
+ Made By
+ Name-Baljinder Singh
+ Id-18110981088
+ Contact me on linkdin:-https://www.linkedin.com/in/baljinder-singh-39a5791b6/
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
 .parent_container{
     margin: 0 5%;
 }
@@ -5,6 +16,7 @@
 .parent_container #container_heading_1{
     text-align: center;
     font-size: 30px;
+    font-family: 'Handlee', cursive;
 }
 .parent_container #container_heading_1_edit{
     margin:0px auto;
@@ -13,6 +25,7 @@
     width: auto;
     font-size: 30px;
     border: 2px solid lightpink;
+    font-family: 'Handlee', cursive;
 }
 
 .parent_container .container_name_edit{
@@ -24,7 +37,7 @@
 
 .parent_container .container_name_edit #name{
     font-size: 20px;
-
+    font-family: 'Aclonica', sans-serif;
 }
 
 
@@ -100,4 +113,17 @@
     display: none;
     margin-top: 10px;
     border: 2px solid lightblue;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size: 20px;
 }
+#post_body{
+   font-family: 'Akaya Kanadaka', cursive;
+    font-size: 20px;
+}
+
+/*
+ Made By
+ Name-Baljinder Singh
+ Id-18110981088
+ Contact me on linkdin:-https://www.linkedin.com/in/baljinder-singh-39a5791b6/
+ */

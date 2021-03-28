@@ -1,3 +1,11 @@
+/*
+ Made By
+ Name-Baljinder Singh
+ Id-18110981088
+ Contact me on linkdin:-https://www.linkedin.com/in/baljinder-singh-39a5791b6/
+ */
+
+
 body{
     background-color: orange;
 
@@ -15,7 +23,7 @@ body{
     border-radius: 20px;
     display: flex;
     background-color: white;
-overflow: hidden;
+    overflow: hidden;
 }
 .all_posts_container .blog_post h1{
 
@@ -25,13 +33,16 @@ overflow: hidden;
     flex-wrap: wrap;
     background-color: white;
     padding:0 20px;
-
+    font-family: 'Kaushan Script', cursive;
 
 }
 .all_posts_container .blog_post .blog_post_content{
     background-color: #dddddd;
     padding: 10px 20px;
 
+}
+.all_posts_container .blog_post .blog_post_content h2{
+   font-family: 'Reggae One', cursive;
 }
 .all_posts_container .blog_post .blog_post_content img{
     float: right;
@@ -40,10 +51,10 @@ overflow: hidden;
     cursor: pointer;
 }
 .all_posts_container .blog_post .blog_post_content p{
-
+    font-family: 'Courgette', cursive;
     overflow: hidden;
     text-overflow: ellipsis;
-    height: 55px;
+    height: 60px;
 
 }
 
@@ -90,3 +101,10 @@ overflow: hidden;
 .Confirmation_box_model .conformation_box .conformation_box_buttons #no{
     background-color: #4CAF50;
 }
+
+/*
+ Made By
+ Name-Baljinder Singh
+ Id-18110981088
+ Contact me on linkdin:-https://www.linkedin.com/in/baljinder-singh-39a5791b6/
+ */
