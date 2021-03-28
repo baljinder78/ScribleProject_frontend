@@ -76,7 +76,7 @@ text-align: center;
 }
 .signup_form form input:focus{
     border-bottom: 2px solid #4CAF50;
-
+    background-color: #dddddd;
 }
 
 .signup_form form p{
@@ -147,7 +147,7 @@ text-align: center;
 }
 .signin_form form input:focus{
     border-bottom: 2px solid #4CAF50;
-
+    background-color: #dddddd;
 }
 
 .signin_form form p{
