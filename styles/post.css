@@ -9,16 +9,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 
-.parent_container{
+.parent_container_by_baljinder{
     margin: 0 5%;
 }
 
-.parent_container #container_heading_1{
+.parent_container_by_baljinder #container_heading_1{
     text-align: center;
     font-size: 30px;
     font-family: 'Handlee', cursive;
 }
-.parent_container #container_heading_1_edit{
+.parent_container_by_baljinder #container_heading_1_edit{
     margin:0px auto;
     display:none;
     height: 30px;
@@ -28,20 +28,20 @@
     font-family: 'Handlee', cursive;
 }
 
-.parent_container .container_name_edit{
+.parent_container_by_baljinder .container_name_edit{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
 }
 
-.parent_container .container_name_edit #name{
+.parent_container_by_baljinder .container_name_edit #name{
     font-size: 20px;
     font-family: 'Aclonica', sans-serif;
 }
 
 
-.parent_container .container_name_edit #edit{
+.parent_container_by_baljinder .container_name_edit #edit{
     height: 40px;
     font-size: 15px;
     padding: 5px 20px;
@@ -52,7 +52,7 @@
 
 }
 
-.parent_container .container_name_edit #save{
+.parent_container_by_baljinder .container_name_edit #save{
     display: none;
     height: 40px;
     font-size: 15px;
@@ -63,7 +63,7 @@
     box-shadow: 2px 5px 10px #ff3385;
 
 }
-.parent_container #like{
+.parent_container_by_baljinder #like{
     margin-top: 10px;
     height: 40px;
     font-size: 20px;
@@ -74,12 +74,12 @@
     box-shadow: 2px 5px 10px #ff3385;
     border-radius: 5px;
 }
-.parent_container #comment_add_content{
+.parent_container_by_baljinder #comment_add_content{
     height: 100px;
     width: 60%;
 }
 
-.parent_container #comment{
+.parent_container_by_baljinder #comment{
     margin-top: 10px;
     height: 40px;
     font-size: 20px;
@@ -90,7 +90,7 @@
     box-shadow: 2px 5px 10px #ff3385;
 }
 
-.parent_container #all_comment{
+.parent_container_by_baljinder #all_comment{
     background-color: gray;
     display: flex;
     flex-direction: column;
@@ -99,7 +99,7 @@
     width: 60%;
     padding: 20px;
 }
-.parent_container #all_comment .comment_content{
+.parent_container_by_baljinder #all_comment .comment_content{
     background-color: white;
     width: 100%;
     height:40px;

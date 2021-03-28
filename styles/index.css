@@ -28,7 +28,7 @@ body{
 }
 
 /*  creat Post model  */
-.creat_post_modal{
+.creat_post_modal_by_baljinder{
     position: fixed;
     display: none;
     z-index:1;

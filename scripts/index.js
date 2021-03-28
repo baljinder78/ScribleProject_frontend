@@ -7,7 +7,7 @@
 
 
 
-var creat_post_modal = document.getElementsByClassName("creat_post_modal")[0];
+var creat_post_modal = document.getElementsByClassName("creat_post_modal_by_baljinder")[0];
 
 var creat_post_btn=document.getElementById("create_post");
 

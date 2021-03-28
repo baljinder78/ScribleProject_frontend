@@ -11,13 +11,13 @@ body{
 
 }
 
-.all_posts_container{
+.all_posts_container_by_baljinder{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 
 }
-.all_posts_container .blog_post{
+.all_posts_container_by_baljinder .blog_post{
     margin: 10px 20px 10px 20px ;
     width: 40%;
     border-radius: 20px;
@@ -25,7 +25,7 @@ body{
     background-color: white;
     overflow: hidden;
 }
-.all_posts_container .blog_post h1{
+.all_posts_container_by_baljinder .blog_post h1{
 
     font-size: 20px;
     align-content:center;
@@ -36,21 +36,21 @@ body{
     font-family: 'Kaushan Script', cursive;
 
 }
-.all_posts_container .blog_post .blog_post_content{
+.all_posts_container_by_baljinder .blog_post .blog_post_content{
     background-color: #dddddd;
     padding: 10px 20px;
 
 }
-.all_posts_container .blog_post .blog_post_content h2{
+.all_posts_container_by_baljinder .blog_post .blog_post_content h2{
    font-family: 'Reggae One', cursive;
 }
-.all_posts_container .blog_post .blog_post_content img{
+.all_posts_container_by_baljinder .blog_post .blog_post_content img{
     float: right;
 }
-.all_posts_container .blog_post .blog_post_content .trash{
+.all_posts_container_by_baljinder .blog_post .blog_post_content .trash{
     cursor: pointer;
 }
-.all_posts_container .blog_post .blog_post_content p{
+.all_posts_container_by_baljinder .blog_post .blog_post_content p{
     font-family: 'Courgette', cursive;
     overflow: hidden;
     text-overflow: ellipsis;
