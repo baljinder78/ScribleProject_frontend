@@ -21,7 +21,8 @@
 .parent_container_by_baljinder #container_heading_1_edit{
     margin:0px auto;
     display:none;
-    height: 30px;
+    height: 34px;
+    overflow: hidden;
     width: auto;
     font-size: 30px;
     border: 2px solid lightpink;

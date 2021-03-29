@@ -30,7 +30,9 @@ function edit_post() {
     edit_button.style.display="none";
     save_button.style.display="block";
 
-    title_blog_edit.value=title_blog.textContent;
+    var val_title=title_blog.textContent.trim();
+    title_blog_edit.innerHTML=val_title;
+
     var val=body_content.textContent.trim();
     body_content_edit.innerHTML=val;
 
